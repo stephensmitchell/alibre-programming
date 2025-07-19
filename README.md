@@ -1,7 +1,3 @@
-Companion Website
-
-https://publish.obsidian.md/a-d-programming/
-
-Links 
+[Companion Website](https://publish.obsidian.md/a-d-programming/)
 
 [AlibreScriptAPIToCSV](https://docs.google.com/spreadsheets/d/1VBC92HOAkMPXikrkiCeVebNg9V-d-igJlTxoCNYk1BA/edit?usp=sharing)
