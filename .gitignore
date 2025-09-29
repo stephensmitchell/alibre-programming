@@ -7,6 +7,8 @@
 scripts
 obsidian
 .obsidian
+# Quartz build folder (not to be committed)
+../quartz/
 # User-specific files
 *.rsuser
 *.suo

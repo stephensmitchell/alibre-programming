@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>Alibre Programming</title>
+      <link>https://alibre-programming.github.io</link>
+      <description>Last 10 notes on Alibre Programming</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>placeholder</title>
+    <link>https://alibre-programming.github.io/AlibreX-examples/placeholder</link>
+    <guid>https://alibre-programming.github.io/AlibreX-examples/placeholder</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Sat, 19 Jul 2025 05:36:41 GMT</pubDate>
+  </item><item>
+    <title>001</title>
+    <link>https://alibre-programming.github.io/Alibre-Script-Code-Assistant/001</link>
+    <guid>https://alibre-programming.github.io/Alibre-Script-Code-Assistant/001</guid>
+    <description><![CDATA[ from AlibreScript import * def create_base_plate_with_holes(): # Initialize a part session part = CurrentPart() # Define dimensions for the base plate and holes plate_length = 100.0 # Length of the base plate plate_width = 50.0 # Width of the base plate plate_thickness = 5.0 # Thickness of the base ... ]]></description>
+    <pubDate>Wed, 25 Jun 2025 05:17:59 GMT</pubDate>
+  </item><item>
+    <title>002</title>
+    <link>https://alibre-programming.github.io/Alibre-Script-Code-Assistant/002</link>
+    <guid>https://alibre-programming.github.io/Alibre-Script-Code-Assistant/002</guid>
+    <description><![CDATA[ from AlibreScript import * import math # Function to add a hole def add_hole(sketch, x, y, diameter): # Create a circle for the hole sketch.AddCircle(x, y, diameter / 2, False) # Main Script def main(): # Create a new part part = CurrentPart() # Add a sketch for the circular plate sketch = part.AddS... ]]></description>
+    <pubDate>Wed, 25 Jun 2025 05:17:59 GMT</pubDate>
+  </item><item>
+    <title>003</title>
+    <link>https://alibre-programming.github.io/Alibre-Script-Code-Assistant/003</link>
+    <guid>https://alibre-programming.github.io/Alibre-Script-Code-Assistant/003</guid>
+    <description><![CDATA[ import math from AlibreScript import * # Initialize the part session part = CurrentPart() # Define the dimensions of the bolt hex_head_diameter = 10 # Diameter of the hex head hex_head_height = 5 # Height of the hex head shaft_diameter = 5 # Diameter of the shaft shaft_length = 20 # Length of the sh... ]]></description>
+    <pubDate>Wed, 25 Jun 2025 05:17:59 GMT</pubDate>
+  </item><item>
+    <title>004</title>
+    <link>https://alibre-programming.github.io/Alibre-Script-Code-Assistant/004</link>
+    <guid>https://alibre-programming.github.io/Alibre-Script-Code-Assistant/004</guid>
+    <description><![CDATA[ import math from AlibreScript import * # Initialize the part session part = CurrentPart() # Assuming you have a part with an edge to chamfer. ]]></description>
+    <pubDate>Wed, 25 Jun 2025 05:17:59 GMT</pubDate>
+  </item><item>
+    <title>005</title>
+    <link>https://alibre-programming.github.io/Alibre-Script-Code-Assistant/005</link>
+    <guid>https://alibre-programming.github.io/Alibre-Script-Code-Assistant/005</guid>
+    <description><![CDATA[ import math from AlibreScript import * # Initialize the part session part = CurrentPart() # Define the dimensions of the bolt hex_head_diameter = 10 # Diameter of the hex head hex_head_height = 5 # Height of the hex head shaft_diameter = 5 # Diameter of the shaft shaft_length = 20 # Length of the sh... ]]></description>
+    <pubDate>Wed, 25 Jun 2025 05:17:59 GMT</pubDate>
+  </item><item>
+    <title>006</title>
+    <link>https://alibre-programming.github.io/Alibre-Script-Code-Assistant/006</link>
+    <guid>https://alibre-programming.github.io/Alibre-Script-Code-Assistant/006</guid>
+    <description><![CDATA[ import math from AlibreScript import * # Initialize the part session part = CurrentPart() # Fetch the standard planes xy_plane = part.GetPlane(&quot;XY-Plane&quot;) zx_plane = part.GetPlane(&quot;ZX-Plane&quot;) # Create a profile sketch on the XY plane profile_sketch = part.AddSketch(&quot;ProfileS... ]]></description>
+    <pubDate>Wed, 25 Jun 2025 05:17:59 GMT</pubDate>
+  </item><item>
+    <title>007</title>
+    <link>https://alibre-programming.github.io/Alibre-Script-Code-Assistant/007</link>
+    <guid>https://alibre-programming.github.io/Alibre-Script-Code-Assistant/007</guid>
+    <description><![CDATA[ import math from AlibreScript import * part = Part(&#039;a_new_sk&#039;) sketch3D = part.Add3DSketch(&#039;My3DSketch&#039;) if sketch3D is None: raise Exception(&quot;Failed to create 3D sketch.&quot;) sketch3D.StartEditing() # Define start and end points of the line startPoint = [0, 0, 0] # Replac... ]]></description>
+    <pubDate>Wed, 25 Jun 2025 05:17:59 GMT</pubDate>
+  </item><item>
+    <title>008</title>
+    <link>https://alibre-programming.github.io/Alibre-Script-Code-Assistant/008</link>
+    <guid>https://alibre-programming.github.io/Alibre-Script-Code-Assistant/008</guid>
+    <description><![CDATA[ import math from AlibreScript import * # Initialize the part session part = CurrentPart() # Flange dimensions (in mm) flangeDiameter = 565 # Flange outer diameter flangeThickness = 30 # Flange thickness pipeDiameter = 254 # 10 inches converted to mm for pipe boltHoleDiameter = 40 # Bolt hole diamete... ]]></description>
+    <pubDate>Wed, 25 Jun 2025 05:17:59 GMT</pubDate>
+  </item><item>
+    <title>009</title>
+    <link>https://alibre-programming.github.io/Alibre-Script-Code-Assistant/009</link>
+    <guid>https://alibre-programming.github.io/Alibre-Script-Code-Assistant/009</guid>
+    <description><![CDATA[ import math from AlibreScript import * # Initialize the part session part = CurrentPart() # Nut dimensions (in mm) threadDiameter = 10 # M10 thread pitch = 1.5 # Typical pitch for M10 acrossFlats = 17 # Width across flats for M10 thickness = 8 # Nut thickness for M10 cornerRadius = 1 # Corner radius... ]]></description>
+    <pubDate>Wed, 25 Jun 2025 05:17:59 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>
