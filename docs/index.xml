@@ -6,6 +6,12 @@
       <description>Last 10 notes on Alibre Programming</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>index</title>
+    <link>https://alibre-programming.github.io/</link>
+    <guid>https://alibre-programming.github.io/</guid>
+    <description><![CDATA[ Repository Index generated 2025-06-24 23:23:46 Alibre-Script-Code-Assistant/ 001.md 002.md 003.md 004.md 005.md 006.md 007.md 008.md 009.md 010.md 011.md 012.md 013.md 014.md README.md alibre-script-examples/ Alibre-Script-Examples.code-workspace Assembly-Constraints.md Bolt-Creator.md Calculating-L... ]]></description>
+    <pubDate>Mon, 29 Sep 2025 05:31:08 GMT</pubDate>
+  </item><item>
     <title>placeholder</title>
     <link>https://alibre-programming.github.io/AlibreX-examples/placeholder</link>
     <guid>https://alibre-programming.github.io/AlibreX-examples/placeholder</guid>
@@ -58,12 +64,6 @@
     <link>https://alibre-programming.github.io/Alibre-Script-Code-Assistant/008</link>
     <guid>https://alibre-programming.github.io/Alibre-Script-Code-Assistant/008</guid>
     <description><![CDATA[ import math from AlibreScript import * # Initialize the part session part = CurrentPart() # Flange dimensions (in mm) flangeDiameter = 565 # Flange outer diameter flangeThickness = 30 # Flange thickness pipeDiameter = 254 # 10 inches converted to mm for pipe boltHoleDiameter = 40 # Bolt hole diamete... ]]></description>
-    <pubDate>Wed, 25 Jun 2025 05:17:59 GMT</pubDate>
-  </item><item>
-    <title>009</title>
-    <link>https://alibre-programming.github.io/Alibre-Script-Code-Assistant/009</link>
-    <guid>https://alibre-programming.github.io/Alibre-Script-Code-Assistant/009</guid>
-    <description><![CDATA[ import math from AlibreScript import * # Initialize the part session part = CurrentPart() # Nut dimensions (in mm) threadDiameter = 10 # M10 thread pitch = 1.5 # Typical pitch for M10 acrossFlats = 17 # Width across flats for M10 thickness = 8 # Nut thickness for M10 cornerRadius = 1 # Corner radius... ]]></description>
     <pubDate>Wed, 25 Jun 2025 05:17:59 GMT</pubDate>
   </item>
     </channel>
